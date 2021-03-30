@@ -57,4 +57,10 @@ process.env.NODE_ENV === "production"
   : "http://localhost:1337";
 ```
 
-7. Don't forget to add your environment variables in heroku settings, otherwise you app will fail. And ofcourse, don't forget to add .env file to .gitignore...
+7. Create a Procfile with the following code inside
+
+```
+web: node server.js
+```
+
+8.  Don't forget to add your environment variables in heroku settings, otherwise you app will fail. And ofcourse, don't forget to add .env file to .gitignore...

@@ -2,6 +2,8 @@
 
 Double click anywhere on the map to create a log entry. There will be a pin appearing for the new entries. Click pins to display log detail for that location. Simple but fun.
 
+LIVE LINK : https://korhan-travel-log.herokuapp.com/
+
 ## Details
 
 Backend : Express, MongoDB,
